@@ -1,6 +1,6 @@
 # Fort.js
 
-Modern progress bar for form completion. [Check out the demo!](/)
+A modern progress bar for form completion. [Check out the demo!](/)
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 #### 1. Add JS file.
 ```html
-<script src="fort.min.js"></script>
+<script src="fort.es.js"></script>
 ```
 
 #### 2. Create a form
