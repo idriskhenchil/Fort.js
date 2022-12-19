@@ -1,5 +1,4 @@
 // Copyright (c) Idris Khenchil https://github.com/idriskhenchil https://github.com/idriskhenchil/Fort.js
-// Copyright (c) Idris Khenchil, https://github.com/idriskhenchil https://github.com/idriskhenchil/Fort.js
 class Fort {
     /**
      * Sets up Fort.js
@@ -91,4 +90,4 @@ class Fort {
     }
 }
 
-export { Fort };
+export { Fort as default };

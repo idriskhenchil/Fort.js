@@ -1,9 +1,10 @@
 // Copyright (c) Idris Khenchil https://github.com/idriskhenchil https://github.com/idriskhenchil/Fort.js
-this.Fort = this.Fort || {};
-this.Fort.js = (function (exports) {
-    'use strict';
+(function (global, factory) {
+    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+    typeof define === 'function' && define.amd ? define(factory) :
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.Fort = factory());
+})(this, (function () { 'use strict';
 
-    // Copyright (c) Idris Khenchil, https://github.com/idriskhenchil https://github.com/idriskhenchil/Fort.js
     class Fort {
         /**
          * Sets up Fort.js
@@ -95,10 +96,6 @@ this.Fort.js = (function (exports) {
         }
     }
 
-    exports.Fort = Fort;
+    return Fort;
 
-    Object.defineProperty(exports, '__esModule', { value: true });
-
-    return exports;
-
-})({});
+}));
