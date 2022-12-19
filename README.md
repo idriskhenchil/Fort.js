@@ -1,5 +1,9 @@
 # Fort.js
 
+<img alt="GitHub" src="https://img.shields.io/github/license/idriskhenchil/Fort.js"> <img alt="GitHub file size in bytes on a specified ref (branch/commit/tag)" src="https://img.shields.io/github/size/idriskhenchil/Fort.js/src/fort.js">
+<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/idriskhenchil/Fort.js">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/idriskhenchil/Fort.js">
+
 A modern progress bar for form completion. [Check out the demo!](/)
 
 ## Getting Started
