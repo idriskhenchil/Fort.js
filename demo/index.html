@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fort.js Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form-wrapper">
+    <h1 class="main-title">Fort.js</h1>
+
+    <form class="fort">
+        <div class="form-item">
+            <input type="text" placeholder="First Name" id="element">
+        </div>
+        <div class="form-item">
+            <input type="text" placeholder="Last Name">
+        </div>
+        <div class="form-item">
+            <input type="text" placeholder="Email">
+        </div>
+
+        <div class="button-panel">
+            <input type="submit" class="button" disabled>
+            <ul>
+                <li class="lil">
+                    <p class="view">
+                        <a href="https://github.com/idriskhenchil/Fort.js" class="ref">View on GitHub</a>
+                    </p>
+                </li>
+                or
+                <li>
+                    <p class="view">
+                        <a href="https://twitter.com/intent/tweet?text=Fort.js+-+A+Modern+Progress+Bar+for+Form+Completion.+By+@IdrisKhenchil&amp;url=https://bit.ly/3FDez6v"
+                           class="ref">Share</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <iframe src="https://ghbtns.com/github-btn.html?user=idriskhenchil&repo=fort.js&type=star&count=true"
+                frameborder="0" scrolling="0" width="80" height="20" title="GitHub"></iframe>
+    </form>
+</div>
+
+<script src="/src/fort.js"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script>
+    // Simulate typing
+    let input = document.getElementById('element')
+
+    let customNodeCreator = function (character) {
+        input.dispatchEvent(new Event('input'));
+
+        // Add character to input placeholder
+        input.value = input.value + character;
+        input.placeholder = "Name"
+
+        // Return null to skip internal adding of dom node
+        return null;
+    }
+
+    let onRemoveNode = function () {
+        if (input.value) {
+            // Remove last character from input placeholder
+            input.value = input.value.slice(0, -1)
+            input.placeholder = "Name"
+
+            input.dispatchEvent(new Event('input'));
+
+        }
+    }
+
+    let typewriter = new Typewriter(null, {
+        loop: false,
+        delay: 150,
+        onCreateTextNode: customNodeCreator,
+        onRemoveNode: onRemoveNode,
+    });
+
+    typewriter
+        .typeString('Type anything')
+        .deleteAll()
+        .typeString('')
+        .start();
+
+
+    // Create new Fort instance
+    new Fort('.fort').solid("#009DFF");
+</script>
+</body>
+</html>
