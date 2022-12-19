@@ -1,0 +1,19 @@
+{
+  "name": "fort",
+  "version": "1.0.0",
+  "description": "A modern progress bar for form completion.",
+  "main": "/src/fort.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idriskhenchil/Fort.js.git"
+  },
+  "author": "Idris Khenchil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idriskhenchil/Fort.js/issues"
+  },
+  "homepage": "https://github.com/idriskhenchil/Fort.js#readme"
+}
