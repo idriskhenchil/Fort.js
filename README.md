@@ -6,6 +6,9 @@
 
 A modern progress bar for form completion. [Check out the demo!](https://idriskhenchil.com/fort)
 
+![](https://idriskhenchil.com/fort/demo.gif)
+
+
 ## Getting Started
 
 #### 1. Add JS file.
