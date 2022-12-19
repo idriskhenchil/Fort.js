@@ -8,8 +8,6 @@ A modern progress bar for form completion. [Check out the demo!](https://idriskh
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 #### 1. Add JS file.
 ```html
 <script src="fort.umd.js"></script>
