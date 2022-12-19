@@ -4,7 +4,7 @@
 <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/idriskhenchil/Fort.js">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/idriskhenchil/Fort.js">
 
-A modern progress bar for form completion. [Check out the demo!](/)
+A modern progress bar for form completion. [Check out the demo!](https://idriskhenchil.com/fort)
 
 ## Getting Started
 
@@ -31,8 +31,8 @@ Fort('.fort').solid("#6638F0");
 
 
 ## Effects
-* [Solid](http://idriskhenchil.github.io/index.html) - `solid()`
-* [Gradient](http://idriskhenchil.github.io/gradient/index.html) - `gradient()`
+* [Solid](https://idriskhenchil.com/fort) - `solid()`
+* [Gradient](https://idriskhenchil.com/fort/gradient) - `gradient()`
 
 **Changing the colors:**
 * Solid - `Fort('.target').solid(#009DFF")` 
