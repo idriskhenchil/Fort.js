@@ -36,10 +36,10 @@ Fort('.fort').solid("#6638F0");
 * [Gradient](https://idriskhenchil.com/fort/gradient) - `gradient()`
 
 **Changing the colors:**
-* Solid - `Fort('.target').solid(#009DFF")` 
+* Solid - `Fort('.target').solid("#009DFF")` 
 
 
-* Gradient - `Fort('.target').gradient(#009DFF", "#47B9FF")` Note: Only pass two color values.
+* Gradient - `Fort('.target').gradient("#009DFF", "#47B9FF")` Note: Only pass two color values.
 
 
 ## License
