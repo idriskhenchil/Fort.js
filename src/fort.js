@@ -1,4 +1,4 @@
-export default class Fort {
+class Fort {
     /**
      * Sets up Fort.js
      * @param _target Target form element
@@ -30,8 +30,11 @@ export default class Fort {
      */
     checkCompletion() {
         for (let elements of this.form) {
+            // Check for fort-ignore tag - true/false?
+            let ignore = elements['className']?.search("fort-ignore") === -1
+
             // Ignore submit and button element
-            if (elements['type'] !== 'submit' && elements['type'] !== 'button') {
+            if (elements['type'] !== 'submit' && elements['type'] !== 'button' && ignore) {
                 // Add event listener to elements
                 elements.addEventListener('input', () => {
                     // Reset emptyElements array
