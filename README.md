@@ -13,7 +13,7 @@ A modern progress bar for form completion. [Check out the demo!](https://idriskh
 
 #### 1. Add JS file
 ```html
-<script src="fort.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@idriskhenchil/fort@1.1.0/dist/fort.min.js"></script>
 ```
 
 #### 2. Create a form
