@@ -1,5 +1,5 @@
 {
-  "name": "fort",
+  "name": "@idriskhenchil/fort",
   "version": "1.0.0",
   "description": "A modern progress bar for form completion.",
   "main": "/src/fort.js",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/idriskhenchil/Fort.js/issues"
   },
-  "homepage": "https://github.com/idriskhenchil/Fort.js#readme"
+  "homepage": "https://github.com/idriskhenchil/Fort.js#readme",
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.2.0"
+  }
 }
