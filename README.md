@@ -35,7 +35,6 @@ Add the `fort-ignore` class to a field to ignore it from counting towards the pr
 ```html
 <input type="text" placeholder="Name" class="fort-ignore">
 ```
----
 ## Effects
 * [Solid](https://idriskhenchil.com/fort) - `solid()`
 * [Gradient](https://idriskhenchil.com/fort/gradient) - `gradient()`
