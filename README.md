@@ -27,7 +27,7 @@ A modern progress bar for form completion. [Check out the demo!](https://idriskh
 
 #### 3. Call Fort with your desired effect, target class, and color(s)
 ```javascript
-Fort('.fort').solid("#6638F0");
+new Fort('.fort').solid("#6638F0");
 ```
 
 **Ignoring fields:**
