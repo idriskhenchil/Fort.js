@@ -1,4 +1,4 @@
-class Fort {
+export default class Fort {
     /**
      * Sets up Fort.js
      * @param _target Target form element
