@@ -6,9 +6,10 @@
 
 A modern progress bar for form completion. [Check out the demo!](https://idriskhenchil.com/fort)
 
-## Getting Started
+![](https://idriskhenchil.com/fort/demo.gif)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+## Getting Started
 
 #### 1. Add JS file.
 ```html
@@ -35,10 +36,10 @@ Fort('.fort').solid("#6638F0");
 * [Gradient](https://idriskhenchil.com/fort/gradient) - `gradient()`
 
 **Changing the colors:**
-* Solid - `Fort('.target').solid(#009DFF")` 
+* Solid - `Fort('.target').solid("#009DFF")` 
 
 
-* Gradient - `Fort('.target').gradient(#009DFF", "#47B9FF")` Note: Only pass two color values.
+* Gradient - `Fort('.target').gradient("#009DFF", "#47B9FF")` Note: Only pass two color values.
 
 
 ## License
